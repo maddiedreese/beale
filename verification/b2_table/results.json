@@ -1,0 +1,5805 @@
+{
+  "schema": "beale-b2-table-constraint-audit-v1",
+  "classification": "known_plaintext_table_reconstruction_not_b2_decryption",
+  "inputs": {
+    "sources/page_17.wikitext": "b3b41de785cae4fb1f25f849c6a61f2fb17da0cb8cec7784a094ac150a23588f",
+    "sources/page_18.wikitext": "439683edf0a52ce398eaca05e15f3cbac3e03f6dfb3ec291ba72746a33372cf0",
+    "sources/page_19.wikitext": "1f88c40b384200ed63714171216fe681da7bc570f7e5bf5a936bb6078d3c5004",
+    "sources/page_20.wikitext": "50133deddbf80fd81a9664742c8526f5381f803416db80e207719434d4c2bee8",
+    "data/beale1_1885.csv": "0e63242041b03717a96340fde86af10f895355b936b4120da1769e9f2f7e3d27",
+    "data/beale2_1885.csv": "038ba2aeae36a504383bafa00583be29cfc8267045c7f44099afbf237a9fd4ba",
+    "cipher_diagnostics/beale_cipher2_deciphered_fsu.txt": "a3e2c102e54245187b6fdf7bcfa56fa7e4b459306d731e4b15a1d0d235ce5284"
+  },
+  "alignment_specification": {
+    "left": "B2 decoded under deterministic pamphlet printed-anchor expansion",
+    "right": "published B2 plaintext, A-Z only and lowercase",
+    "costs": {
+      "substitution": 1,
+      "gap": 2
+    },
+    "tie_break": "diagonal, then right-only, then left-only",
+    "manual_phrase_deletions": 0,
+    "score": 47,
+    "paired_positions": 762,
+    "left_only_positions": [],
+    "right_only_positions": [
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      500,
+      580
+    ],
+    "right_only_letters": "eforsilvrn"
+  },
+  "inferred_constraints": {
+    "observed_number_types": 181,
+    "unanimous_number_types": 177,
+    "conflicting_number_types": {
+      "53": {
+        "observations": {
+          "r": 8,
+          "t": 1
+        },
+        "total": 9,
+        "unanimous": false,
+        "majority": "r"
+      },
+      "84": {
+        "observations": {
+          "c": 5,
+          "e": 2
+        },
+        "total": 7,
+        "unanimous": false,
+        "majority": "c"
+      },
+      "96": {
+        "observations": {
+          "r": 7,
+          "u": 1
+        },
+        "total": 8,
+        "unanimous": false,
+        "majority": "r"
+      },
+      "440": {
+        "observations": {
+          "u": 1,
+          "w": 1
+        },
+        "total": 2,
+        "unanimous": false,
+        "majority": "w"
+      }
+    },
+    "number_241": {
+      "observations": {
+        "i": 2
+      },
+      "total": 2,
+      "unanimous": true,
+      "majority": "i"
+    },
+    "number_246": {
+      "observations": {
+        "d": 3
+      },
+      "total": 3,
+      "unanimous": true,
+      "majority": "d"
+    },
+    "all": {
+      "1": {
+        "observations": {
+          "w": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "w"
+      },
+      "2": {
+        "observations": {
+          "i": 7
+        },
+        "total": 7,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "3": {
+        "observations": {
+          "t": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "4": {
+        "observations": {
+          "c": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "c"
+      },
+      "5": {
+        "observations": {
+          "o": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "6": {
+        "observations": {
+          "h": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "h"
+      },
+      "7": {
+        "observations": {
+          "e": 15
+        },
+        "total": 15,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "8": {
+        "observations": {
+          "i": 11
+        },
+        "total": 11,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "9": {
+        "observations": {
+          "b": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "b"
+      },
+      "10": {
+        "observations": {
+          "n": 12
+        },
+        "total": 12,
+        "unanimous": true,
+        "majority": "n"
+      },
+      "11": {
+        "observations": {
+          "f": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "f"
+      },
+      "12": {
+        "observations": {
+          "o": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "14": {
+        "observations": {
+          "t": 7
+        },
+        "total": 7,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "15": {
+        "observations": {
+          "d": 8
+        },
+        "total": 8,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "16": {
+        "observations": {
+          "t": 9
+        },
+        "total": 9,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "17": {
+        "observations": {
+          "p": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "p"
+      },
+      "18": {
+        "observations": {
+          "b": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "b"
+      },
+      "19": {
+        "observations": {
+          "w": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "w"
+      },
+      "20": {
+        "observations": {
+          "h": 9
+        },
+        "total": 9,
+        "unanimous": true,
+        "majority": "h"
+      },
+      "21": {
+        "observations": {
+          "c": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "c"
+      },
+      "22": {
+        "observations": {
+          "t": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "24": {
+        "observations": {
+          "a": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "25": {
+        "observations": {
+          "a": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "26": {
+        "observations": {
+          "t": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "27": {
+        "observations": {
+          "a": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "28": {
+        "observations": {
+          "a": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "29": {
+        "observations": {
+          "t": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "30": {
+        "observations": {
+          "p": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "p"
+      },
+      "31": {
+        "observations": {
+          "o": 7
+        },
+        "total": 7,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "32": {
+        "observations": {
+          "t": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "33": {
+        "observations": {
+          "e": 13
+        },
+        "total": 13,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "34": {
+        "observations": {
+          "t": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "35": {
+        "observations": {
+          "s": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "36": {
+        "observations": {
+          "a": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "37": {
+        "observations": {
+          "e": 13
+        },
+        "total": 13,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "38": {
+        "observations": {
+          "s": 9
+        },
+        "total": 9,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "39": {
+        "observations": {
+          "t": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "40": {
+        "observations": {
+          "w": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "w"
+      },
+      "41": {
+        "observations": {
+          "t": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "42": {
+        "observations": {
+          "l": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "43": {
+        "observations": {
+          "o": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "44": {
+        "observations": {
+          "n": 13
+        },
+        "total": 13,
+        "unanimous": true,
+        "majority": "n"
+      },
+      "45": {
+        "observations": {
+          "a": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "46": {
+        "observations": {
+          "o": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "47": {
+        "observations": {
+          "n": 13
+        },
+        "total": 13,
+        "unanimous": true,
+        "majority": "n"
+      },
+      "48": {
+        "observations": {
+          "g": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "g"
+      },
+      "49": {
+        "observations": {
+          "e": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "50": {
+        "observations": {
+          "t": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "51": {
+        "observations": {
+          "a": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "52": {
+        "observations": {
+          "d": 10
+        },
+        "total": 10,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "53": {
+        "observations": {
+          "r": 8,
+          "t": 1
+        },
+        "total": 9,
+        "unanimous": false,
+        "majority": "r"
+      },
+      "56": {
+        "observations": {
+          "o": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "57": {
+        "observations": {
+          "o": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "58": {
+        "observations": {
+          "m": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "m"
+      },
+      "59": {
+        "observations": {
+          "r": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "r"
+      },
+      "60": {
+        "observations": {
+          "t": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "61": {
+        "observations": {
+          "t": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "62": {
+        "observations": {
+          "s": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "63": {
+        "observations": {
+          "d": 11
+        },
+        "total": 11,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "64": {
+        "observations": {
+          "t": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "65": {
+        "observations": {
+          "c": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "c"
+      },
+      "66": {
+        "observations": {
+          "w": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "w"
+      },
+      "67": {
+        "observations": {
+          "i": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "71": {
+        "observations": {
+          "s": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "72": {
+        "observations": {
+          "w": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "w"
+      },
+      "73": {
+        "observations": {
+          "h": 8
+        },
+        "total": 8,
+        "unanimous": true,
+        "majority": "h"
+      },
+      "77": {
+        "observations": {
+          "b": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "b"
+      },
+      "78": {
+        "observations": {
+          "s": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "79": {
+        "observations": {
+          "e": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "81": {
+        "observations": {
+          "a": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "82": {
+        "observations": {
+          "m": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "m"
+      },
+      "83": {
+        "observations": {
+          "a": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "84": {
+        "observations": {
+          "c": 5,
+          "e": 2
+        },
+        "total": 7,
+        "unanimous": false,
+        "majority": "c"
+      },
+      "85": {
+        "observations": {
+          "e": 11
+        },
+        "total": 11,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "92": {
+        "observations": {
+          "c": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "c"
+      },
+      "94": {
+        "observations": {
+          "c": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "c"
+      },
+      "95": {
+        "observations": {
+          "u": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "u"
+      },
+      "96": {
+        "observations": {
+          "r": 7,
+          "u": 1
+        },
+        "total": 8,
+        "unanimous": false,
+        "majority": "r"
+      },
+      "98": {
+        "observations": {
+          "a": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "101": {
+        "observations": {
+          "l": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "102": {
+        "observations": {
+          "l": 7
+        },
+        "total": 7,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "105": {
+        "observations": {
+          "p": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "p"
+      },
+      "106": {
+        "observations": {
+          "o": 15
+        },
+        "total": 15,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "107": {
+        "observations": {
+          "h": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "h"
+      },
+      "108": {
+        "observations": {
+          "i": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "110": {
+        "observations": {
+          "s": 11
+        },
+        "total": 11,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "112": {
+        "observations": {
+          "r": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "r"
+      },
+      "113": {
+        "observations": {
+          "g": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "g"
+      },
+      "115": {
+        "observations": {
+          "i": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "117": {
+        "observations": {
+          "m": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "m"
+      },
+      "118": {
+        "observations": {
+          "d": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "120": {
+        "observations": {
+          "j": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "j"
+      },
+      "121": {
+        "observations": {
+          "p": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "p"
+      },
+      "122": {
+        "observations": {
+          "f": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "f"
+      },
+      "125": {
+        "observations": {
+          "o": 9
+        },
+        "total": 9,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "131": {
+        "observations": {
+          "f": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "f"
+      },
+      "133": {
+        "observations": {
+          "g": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "g"
+      },
+      "134": {
+        "observations": {
+          "b": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "b"
+      },
+      "135": {
+        "observations": {
+          "d": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "136": {
+        "observations": {
+          "o": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "138": {
+        "observations": {
+          "e": 15
+        },
+        "total": 15,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "140": {
+        "observations": {
+          "i": 15
+        },
+        "total": 15,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "143": {
+        "observations": {
+          "o": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "147": {
+        "observations": {
+          "a": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "150": {
+        "observations": {
+          "a": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "152": {
+        "observations": {
+          "a": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "154": {
+        "observations": {
+          "i": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "158": {
+        "observations": {
+          "l": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "159": {
+        "observations": {
+          "i": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "160": {
+        "observations": {
+          "f": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "f"
+      },
+      "177": {
+        "observations": {
+          "l": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "185": {
+        "observations": {
+          "i": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "191": {
+        "observations": {
+          "e": 7
+        },
+        "total": 7,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "194": {
+        "observations": {
+          "b": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "b"
+      },
+      "196": {
+        "observations": {
+          "f": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "f"
+      },
+      "197": {
+        "observations": {
+          "l": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "200": {
+        "observations": {
+          "c": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "c"
+      },
+      "205": {
+        "observations": {
+          "h": 7
+        },
+        "total": 7,
+        "unanimous": true,
+        "majority": "h"
+      },
+      "208": {
+        "observations": {
+          "m": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "m"
+      },
+      "211": {
+        "observations": {
+          "d": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "217": {
+        "observations": {
+          "s": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "220": {
+        "observations": {
+          "r": 8
+        },
+        "total": 8,
+        "unanimous": true,
+        "majority": "r"
+      },
+      "230": {
+        "observations": {
+          "a": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "234": {
+        "observations": {
+          "l": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "239": {
+        "observations": {
+          "u": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "u"
+      },
+      "241": {
+        "observations": {
+          "i": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "246": {
+        "observations": {
+          "d": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "248": {
+        "observations": {
+          "r": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "r"
+      },
+      "250": {
+        "observations": {
+          "u": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "u"
+      },
+      "252": {
+        "observations": {
+          "d": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "270": {
+        "observations": {
+          "g": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "g"
+      },
+      "273": {
+        "observations": {
+          "f": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "f"
+      },
+      "275": {
+        "observations": {
+          "s": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "284": {
+        "observations": {
+          "a": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "a"
+      },
+      "285": {
+        "observations": {
+          "s": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "287": {
+        "observations": {
+          "n": 8
+        },
+        "total": 8,
+        "unanimous": true,
+        "majority": "n"
+      },
+      "288": {
+        "observations": {
+          "t": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "290": {
+        "observations": {
+          "w": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "w"
+      },
+      "297": {
+        "observations": {
+          "s": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "301": {
+        "observations": {
+          "h": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "h"
+      },
+      "302": {
+        "observations": {
+          "o": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "o"
+      },
+      "305": {
+        "observations": {
+          "k": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "k"
+      },
+      "308": {
+        "observations": {
+          "b": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "b"
+      },
+      "314": {
+        "observations": {
+          "i": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "316": {
+        "observations": {
+          "u": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "u"
+      },
+      "320": {
+        "observations": {
+          "d": 5
+        },
+        "total": 5,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "344": {
+        "observations": {
+          "r": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "r"
+      },
+      "353": {
+        "observations": {
+          "n": 8
+        },
+        "total": 8,
+        "unanimous": true,
+        "majority": "n"
+      },
+      "360": {
+        "observations": {
+          "f": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "f"
+      },
+      "370": {
+        "observations": {
+          "i": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "371": {
+        "observations": {
+          "u": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "u"
+      },
+      "388": {
+        "observations": {
+          "u": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "u"
+      },
+      "394": {
+        "observations": {
+          "h": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "h"
+      },
+      "400": {
+        "observations": {
+          "l": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "405": {
+        "observations": {
+          "l": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "406": {
+        "observations": {
+          "d": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "409": {
+        "observations": {
+          "u": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "u"
+      },
+      "420": {
+        "observations": {
+          "l": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "l"
+      },
+      "440": {
+        "observations": {
+          "u": 1,
+          "w": 1
+        },
+        "total": 2,
+        "unanimous": false,
+        "majority": "w"
+      },
+      "466": {
+        "observations": {
+          "h": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "h"
+      },
+      "485": {
+        "observations": {
+          "b": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "b"
+      },
+      "486": {
+        "observations": {
+          "e": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "505": {
+        "observations": {
+          "s": 3
+        },
+        "total": 3,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "511": {
+        "observations": {
+          "e": 6
+        },
+        "total": 6,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "540": {
+        "observations": {
+          "n": 10
+        },
+        "total": 10,
+        "unanimous": true,
+        "majority": "n"
+      },
+      "548": {
+        "observations": {
+          "e": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "554": {
+        "observations": {
+          "t": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "557": {
+        "observations": {
+          "n": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "n"
+      },
+      "575": {
+        "observations": {
+          "e": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "581": {
+        "observations": {
+          "j": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "j"
+      },
+      "582": {
+        "observations": {
+          "d": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "d"
+      },
+      "600": {
+        "observations": {
+          "s": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "s"
+      },
+      "603": {
+        "observations": {
+          "e": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "607": {
+        "observations": {
+          "n": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "n"
+      },
+      "620": {
+        "observations": {
+          "e": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "e"
+      },
+      "643": {
+        "observations": {
+          "t": 2
+        },
+        "total": 2,
+        "unanimous": true,
+        "majority": "t"
+      },
+      "647": {
+        "observations": {
+          "i": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "i"
+      },
+      "666": {
+        "observations": {
+          "f": 1
+        },
+        "total": 1,
+        "unanimous": true,
+        "majority": "f"
+      },
+      "807": {
+        "observations": {
+          "v": 18
+        },
+        "total": 18,
+        "unanimous": true,
+        "majority": "v"
+      },
+      "811": {
+        "observations": {
+          "y": 9
+        },
+        "total": 9,
+        "unanimous": true,
+        "majority": "y"
+      },
+      "1005": {
+        "observations": {
+          "x": 4
+        },
+        "total": 4,
+        "unanimous": true,
+        "majority": "x"
+      }
+    }
+  },
+  "single_deletion_candidates_240_246": {
+    "240": {
+      "deleted_ordinary_position": 240,
+      "deleted_word": "pursuing",
+      "local_239_466_constraint_type_matches": 34,
+      "local_239_466_constraint_type_mismatches": 2,
+      "local_239_466_constraint_occurrence_matches": 82,
+      "local_239_466_constraint_occurrence_mismatches": 3,
+      "mismatches": [
+        {
+          "number": 241,
+          "predicted": "t",
+          "observed": {
+            "i": 2
+          }
+        },
+        {
+          "number": 440,
+          "predicted": "u",
+          "observed": {
+            "u": 1,
+            "w": 1
+          }
+        }
+      ],
+      "b1_decoded_count": 508,
+      "b1_unresolved_count": 12,
+      "b1_sha256": "1efc1f65ad4375dbbdcdb8457df317f89f7011b9e8864a6d27daac3fa88c18ea",
+      "b1_longest_walk": {
+        "length": 17,
+        "start": 188,
+        "end": 204,
+        "text": "abcdefghiijklmmno",
+        "direction": "forward"
+      },
+      "b1_positions_188_207": "abcdefghiijklmmnohpp"
+    },
+    "241": {
+      "deleted_ordinary_position": 241,
+      "deleted_word": "invariably",
+      "local_239_466_constraint_type_matches": 34,
+      "local_239_466_constraint_type_mismatches": 2,
+      "local_239_466_constraint_occurrence_matches": 82,
+      "local_239_466_constraint_occurrence_mismatches": 3,
+      "mismatches": [
+        {
+          "number": 241,
+          "predicted": "t",
+          "observed": {
+            "i": 2
+          }
+        },
+        {
+          "number": 440,
+          "predicted": "u",
+          "observed": {
+            "u": 1,
+            "w": 1
+          }
+        }
+      ],
+      "b1_decoded_count": 508,
+      "b1_unresolved_count": 12,
+      "b1_sha256": "1efc1f65ad4375dbbdcdb8457df317f89f7011b9e8864a6d27daac3fa88c18ea",
+      "b1_longest_walk": {
+        "length": 17,
+        "start": 188,
+        "end": 204,
+        "text": "abcdefghiijklmmno",
+        "direction": "forward"
+      },
+      "b1_positions_188_207": "abcdefghiijklmmnohpp"
+    },
+    "242": {
+      "deleted_ordinary_position": 242,
+      "deleted_word": "the",
+      "local_239_466_constraint_type_matches": 35,
+      "local_239_466_constraint_type_mismatches": 1,
+      "local_239_466_constraint_occurrence_matches": 84,
+      "local_239_466_constraint_occurrence_mismatches": 1,
+      "mismatches": [
+        {
+          "number": 440,
+          "predicted": "u",
+          "observed": {
+            "u": 1,
+            "w": 1
+          }
+        }
+      ],
+      "b1_decoded_count": 508,
+      "b1_unresolved_count": 12,
+      "b1_sha256": "1efc1f65ad4375dbbdcdb8457df317f89f7011b9e8864a6d27daac3fa88c18ea",
+      "b1_longest_walk": {
+        "length": 17,
+        "start": 188,
+        "end": 204,
+        "text": "abcdefghiijklmmno",
+        "direction": "forward"
+      },
+      "b1_positions_188_207": "abcdefghiijklmmnohpp"
+    },
+    "243": {
+      "deleted_ordinary_position": 243,
+      "deleted_word": "same",
+      "local_239_466_constraint_type_matches": 35,
+      "local_239_466_constraint_type_mismatches": 1,
+      "local_239_466_constraint_occurrence_matches": 84,
+      "local_239_466_constraint_occurrence_mismatches": 1,
+      "mismatches": [
+        {
+          "number": 440,
+          "predicted": "u",
+          "observed": {
+            "u": 1,
+            "w": 1
+          }
+        }
+      ],
+      "b1_decoded_count": 508,
+      "b1_unresolved_count": 12,
+      "b1_sha256": "68c570b80007149c241af2f9a149fe15bf9f4b5c28dcf220aa4bd52b35547dd0",
+      "b1_longest_walk": {
+        "length": 17,
+        "start": 188,
+        "end": 204,
+        "text": "abcdefghiijklmmno",
+        "direction": "forward"
+      },
+      "b1_positions_188_207": "abcdefghiijklmmnohpp"
+    },
+    "244": {
+      "deleted_ordinary_position": 244,
+      "deleted_word": "object",
+      "local_239_466_constraint_type_matches": 35,
+      "local_239_466_constraint_type_mismatches": 1,
+      "local_239_466_constraint_occurrence_matches": 84,
+      "local_239_466_constraint_occurrence_mismatches": 1,
+      "mismatches": [
+        {
+          "number": 440,
+          "predicted": "u",
+          "observed": {
+            "u": 1,
+            "w": 1
+          }
+        }
+      ],
+      "b1_decoded_count": 508,
+      "b1_unresolved_count": 12,
+      "b1_sha256": "68c570b80007149c241af2f9a149fe15bf9f4b5c28dcf220aa4bd52b35547dd0",
+      "b1_longest_walk": {
+        "length": 17,
+        "start": 188,
+        "end": 204,
+        "text": "abcdefghiijklmmno",
+        "direction": "forward"
+      },
+      "b1_positions_188_207": "abcdefghiijklmmnohpp"
+    },
+    "245": {
+      "deleted_ordinary_position": 245,
+      "deleted_word": "evinces",
+      "local_239_466_constraint_type_matches": 35,
+      "local_239_466_constraint_type_mismatches": 1,
+      "local_239_466_constraint_occurrence_matches": 84,
+      "local_239_466_constraint_occurrence_mismatches": 1,
+      "mismatches": [
+        {
+          "number": 440,
+          "predicted": "u",
+          "observed": {
+            "u": 1,
+            "w": 1
+          }
+        }
+      ],
+      "b1_decoded_count": 508,
+      "b1_unresolved_count": 12,
+      "b1_sha256": "68c570b80007149c241af2f9a149fe15bf9f4b5c28dcf220aa4bd52b35547dd0",
+      "b1_longest_walk": {
+        "length": 17,
+        "start": 188,
+        "end": 204,
+        "text": "abcdefghiijklmmno",
+        "direction": "forward"
+      },
+      "b1_positions_188_207": "abcdefghiijklmmnohpp"
+    },
+    "246": {
+      "deleted_ordinary_position": 246,
+      "deleted_word": "a",
+      "local_239_466_constraint_type_matches": 35,
+      "local_239_466_constraint_type_mismatches": 1,
+      "local_239_466_constraint_occurrence_matches": 84,
+      "local_239_466_constraint_occurrence_mismatches": 1,
+      "mismatches": [
+        {
+          "number": 440,
+          "predicted": "u",
+          "observed": {
+            "u": 1,
+            "w": 1
+          }
+        }
+      ],
+      "b1_decoded_count": 508,
+      "b1_unresolved_count": 12,
+      "b1_sha256": "68c570b80007149c241af2f9a149fe15bf9f4b5c28dcf220aa4bd52b35547dd0",
+      "b1_longest_walk": {
+        "length": 17,
+        "start": 188,
+        "end": 204,
+        "text": "abcdefghiijklmmno",
+        "direction": "forward"
+      },
+      "b1_positions_188_207": "abcdefghiijklmmnohpp"
+    }
+  },
+  "supported_local_interval": {
+    "admissible_deleted_positions": [
+      242,
+      243,
+      244,
+      245,
+      246
+    ],
+    "admissible_words": [
+      "the",
+      "same",
+      "object",
+      "evinces",
+      "a"
+    ],
+    "reason": "Deleting 240 or 241 contradicts the two unanimous i observations for B2 number 241. Deleting any one of 242..246 retains 241=invariably and moves ordinary 247=design to table label 246; B2 does not use 242..245.",
+    "identifiable_word": false
+  },
+  "complete_b1_application": {
+    "admissible_models": [
+      "242",
+      "243",
+      "244",
+      "245",
+      "246"
+    ],
+    "representative_model": "delete ordinary position 246",
+    "representative_decoded_sha256": "68c570b80007149c241af2f9a149fe15bf9f4b5c28dcf220aa4bd52b35547dd0",
+    "representative_decoded_count": 508,
+    "representative_unresolved_count": 12,
+    "representative_longest_walk": {
+      "length": 17,
+      "start": 188,
+      "end": 204,
+      "text": "abcdefghiijklmmno",
+      "direction": "forward"
+    },
+    "piecewise_rule": "Use the candidate single-deletion enumeration only for labels 240..466; use the parsed pamphlet-anchor table outside that band.",
+    "positions_that_differ_across_admissible_models": [
+      347
+    ],
+    "invariant_positions_188_207": "abcdefghiijklmmnohpp",
+    "representative_rows": [
+      {
+        "position": 1,
+        "cipher_number": 71,
+        "word": "separation",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 2,
+        "cipher_number": 194,
+        "word": "be",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 3,
+        "cipher_number": 38,
+        "word": "station",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 4,
+        "cipher_number": 1701,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 5,
+        "cipher_number": 89,
+        "word": "endowed",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 6,
+        "cipher_number": 76,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 7,
+        "cipher_number": 11,
+        "word": "for",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 8,
+        "cipher_number": 83,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 9,
+        "cipher_number": 1629,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 10,
+        "cipher_number": 48,
+        "word": "God",
+        "initial": "g",
+        "resolved": true
+      },
+      {
+        "position": 11,
+        "cipher_number": 94,
+        "word": "certain",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 12,
+        "cipher_number": 63,
+        "word": "declare",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 13,
+        "cipher_number": 132,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 14,
+        "cipher_number": 16,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 15,
+        "cipher_number": 111,
+        "word": "their",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 16,
+        "cipher_number": 95,
+        "word": "inalienable",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 17,
+        "cipher_number": 84,
+        "word": "created",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 18,
+        "cipher_number": 341,
+        "word": "world",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 19,
+        "cipher_number": 975,
+        "word": "warfare",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 20,
+        "cipher_number": 14,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 21,
+        "cipher_number": 40,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 22,
+        "cipher_number": 64,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 23,
+        "cipher_number": 27,
+        "word": "assume",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 24,
+        "cipher_number": 81,
+        "word": "all",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 25,
+        "cipher_number": 139,
+        "word": "it",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 26,
+        "cipher_number": 213,
+        "word": "suffer",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 27,
+        "cipher_number": 63,
+        "word": "declare",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 28,
+        "cipher_number": 90,
+        "word": "by",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 29,
+        "cipher_number": 1120,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 30,
+        "cipher_number": 8,
+        "word": "it",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 31,
+        "cipher_number": 15,
+        "word": "dissolve",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 32,
+        "cipher_number": 3,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 33,
+        "cipher_number": 126,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 34,
+        "cipher_number": 2018,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 35,
+        "cipher_number": 40,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 36,
+        "cipher_number": 74,
+        "word": "these",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 37,
+        "cipher_number": 758,
+        "word": "abolishing",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 38,
+        "cipher_number": 485,
+        "word": "be",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 39,
+        "cipher_number": 604,
+        "word": "a",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 40,
+        "cipher_number": 230,
+        "word": "accustomed",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 41,
+        "cipher_number": 436,
+        "word": "bodies",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 42,
+        "cipher_number": 664,
+        "word": "a",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 43,
+        "cipher_number": 582,
+        "word": "dependent",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 44,
+        "cipher_number": 150,
+        "word": "abolish",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 45,
+        "cipher_number": 251,
+        "word": "absolute",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 46,
+        "cipher_number": 284,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 47,
+        "cipher_number": 308,
+        "word": "Britain",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 48,
+        "cipher_number": 231,
+        "word": "But",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 49,
+        "cipher_number": 124,
+        "word": "consent",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 50,
+        "cipher_number": 211,
+        "word": "disposed",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 51,
+        "cipher_number": 486,
+        "word": "elected",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 52,
+        "cipher_number": 225,
+        "word": "forms",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 53,
+        "cipher_number": 401,
+        "word": "for",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 54,
+        "cipher_number": 370,
+        "word": "importance",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 55,
+        "cipher_number": 11,
+        "word": "for",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 56,
+        "cipher_number": 101,
+        "word": "life",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 57,
+        "cipher_number": 305,
+        "word": "King",
+        "initial": "k",
+        "resolved": true
+      },
+      {
+        "position": 58,
+        "cipher_number": 139,
+        "word": "it",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 59,
+        "cipher_number": 189,
+        "word": "governments",
+        "initial": "g",
+        "resolved": true
+      },
+      {
+        "position": 60,
+        "cipher_number": 17,
+        "word": "political",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 61,
+        "cipher_number": 33,
+        "word": "earth",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 62,
+        "cipher_number": 88,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 63,
+        "cipher_number": 208,
+        "word": "mankind",
+        "initial": "m",
+        "resolved": true
+      },
+      {
+        "position": 64,
+        "cipher_number": 193,
+        "word": "not",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 65,
+        "cipher_number": 145,
+        "word": "people",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 66,
+        "cipher_number": 1,
+        "word": "When",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 67,
+        "cipher_number": 94,
+        "word": "certain",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 68,
+        "cipher_number": 73,
+        "word": "hold",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 69,
+        "cipher_number": 416,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 70,
+        "cipher_number": 918,
+        "word": "our",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 71,
+        "cipher_number": 263,
+        "word": "off",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 72,
+        "cipher_number": 28,
+        "word": "among",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 73,
+        "cipher_number": 500,
+        "word": "large",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 74,
+        "cipher_number": 538,
+        "word": "laws",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 75,
+        "cipher_number": 356,
+        "word": "public",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 76,
+        "cipher_number": 117,
+        "word": "men",
+        "initial": "m",
+        "resolved": true
+      },
+      {
+        "position": 77,
+        "cipher_number": 136,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 78,
+        "cipher_number": 219,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 79,
+        "cipher_number": 27,
+        "word": "assume",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 80,
+        "cipher_number": 176,
+        "word": "most",
+        "initial": "m",
+        "resolved": true
+      },
+      {
+        "position": 81,
+        "cipher_number": 130,
+        "word": "any",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 82,
+        "cipher_number": 10,
+        "word": "necessary",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 83,
+        "cipher_number": 460,
+        "word": "his",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 84,
+        "cipher_number": 25,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 85,
+        "cipher_number": 485,
+        "word": "be",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 86,
+        "cipher_number": 18,
+        "word": "bands",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 87,
+        "cipher_number": 436,
+        "word": "bodies",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 88,
+        "cipher_number": 65,
+        "word": "causes",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 89,
+        "cipher_number": 84,
+        "word": "created",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 90,
+        "cipher_number": 200,
+        "word": "causes",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 91,
+        "cipher_number": 283,
+        "word": "colonies",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 92,
+        "cipher_number": 118,
+        "word": "deriving",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 93,
+        "cipher_number": 320,
+        "word": "direct",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 94,
+        "cipher_number": 138,
+        "word": "ends",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 95,
+        "cipher_number": 36,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 96,
+        "cipher_number": 416,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 97,
+        "cipher_number": 280,
+        "word": "sufferance",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 98,
+        "cipher_number": 15,
+        "word": "dissolve",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 99,
+        "cipher_number": 71,
+        "word": "separation",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 100,
+        "cipher_number": 224,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 101,
+        "cipher_number": 961,
+        "word": "on",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 102,
+        "cipher_number": 44,
+        "word": "nature",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 103,
+        "cipher_number": 16,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 104,
+        "cipher_number": 401,
+        "word": "for",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 105,
+        "cipher_number": 39,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 106,
+        "cipher_number": 88,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 107,
+        "cipher_number": 61,
+        "word": "they",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 108,
+        "cipher_number": 304,
+        "word": "present",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 109,
+        "cipher_number": 12,
+        "word": "one",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 110,
+        "cipher_number": 21,
+        "word": "connected",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 111,
+        "cipher_number": 24,
+        "word": "another",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 112,
+        "cipher_number": 283,
+        "word": "colonies",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 113,
+        "cipher_number": 134,
+        "word": "becomes",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 114,
+        "cipher_number": 92,
+        "word": "Creator",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 115,
+        "cipher_number": 63,
+        "word": "declare",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 116,
+        "cipher_number": 246,
+        "word": "design",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 117,
+        "cipher_number": 486,
+        "word": "elected",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 118,
+        "cipher_number": 682,
+        "word": "legislation",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 119,
+        "cipher_number": 7,
+        "word": "events",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 120,
+        "cipher_number": 219,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 121,
+        "cipher_number": 184,
+        "word": "Prudence",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 122,
+        "cipher_number": 360,
+        "word": "forbidden",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 123,
+        "cipher_number": 780,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 124,
+        "cipher_number": 18,
+        "word": "bands",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 125,
+        "cipher_number": 64,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 126,
+        "cipher_number": 463,
+        "word": "has",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 127,
+        "cipher_number": 474,
+        "word": "for",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 128,
+        "cipher_number": 131,
+        "word": "form",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 129,
+        "cipher_number": 160,
+        "word": "foundation",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 130,
+        "cipher_number": 79,
+        "word": "evident",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 131,
+        "cipher_number": 73,
+        "word": "hold",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 132,
+        "cipher_number": 440,
+        "word": "uncomfortable",
+        "initial": "u",
+        "resolved": true
+      },
+      {
+        "position": 133,
+        "cipher_number": 95,
+        "word": "inalienable",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 134,
+        "cipher_number": 18,
+        "word": "bands",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 135,
+        "cipher_number": 64,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 136,
+        "cipher_number": 581,
+        "word": "judges",
+        "initial": "j",
+        "resolved": true
+      },
+      {
+        "position": 137,
+        "cipher_number": 34,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 138,
+        "cipher_number": 69,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 139,
+        "cipher_number": 128,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 140,
+        "cipher_number": 367,
+        "word": "immediate",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 141,
+        "cipher_number": 460,
+        "word": "his",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 142,
+        "cipher_number": 17,
+        "word": "political",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 143,
+        "cipher_number": 81,
+        "word": "all",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 144,
+        "cipher_number": 12,
+        "word": "one",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 145,
+        "cipher_number": 103,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 146,
+        "cipher_number": 820,
+        "word": "own",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 147,
+        "cipher_number": 62,
+        "word": "should",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 148,
+        "cipher_number": 116,
+        "word": "among",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 149,
+        "cipher_number": 97,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 150,
+        "cipher_number": 103,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 151,
+        "cipher_number": 862,
+        "word": "our",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 152,
+        "cipher_number": 70,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 153,
+        "cipher_number": 60,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 154,
+        "cipher_number": 1317,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 155,
+        "cipher_number": 471,
+        "word": "He",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 156,
+        "cipher_number": 540,
+        "word": "naturalization",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 157,
+        "cipher_number": 208,
+        "word": "mankind",
+        "initial": "m",
+        "resolved": true
+      },
+      {
+        "position": 158,
+        "cipher_number": 121,
+        "word": "powers",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 159,
+        "cipher_number": 890,
+        "word": "tyranny",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 160,
+        "cipher_number": 346,
+        "word": "assent",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 161,
+        "cipher_number": 36,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 162,
+        "cipher_number": 150,
+        "word": "abolish",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 163,
+        "cipher_number": 59,
+        "word": "requires",
+        "initial": "r",
+        "resolved": true
+      },
+      {
+        "position": 164,
+        "cipher_number": 568,
+        "word": "by",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 165,
+        "cipher_number": 614,
+        "word": "officers",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 166,
+        "cipher_number": 13,
+        "word": "people",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 167,
+        "cipher_number": 120,
+        "word": "just",
+        "initial": "j",
+        "resolved": true
+      },
+      {
+        "position": 168,
+        "cipher_number": 63,
+        "word": "declare",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 169,
+        "cipher_number": 219,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 170,
+        "cipher_number": 812,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 171,
+        "cipher_number": 2160,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 172,
+        "cipher_number": 1780,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 173,
+        "cipher_number": 99,
+        "word": "these",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 174,
+        "cipher_number": 35,
+        "word": "separate",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 175,
+        "cipher_number": 18,
+        "word": "bands",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 176,
+        "cipher_number": 21,
+        "word": "connected",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 177,
+        "cipher_number": 136,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 178,
+        "cipher_number": 872,
+        "word": "is",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 179,
+        "cipher_number": 15,
+        "word": "dissolve",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 180,
+        "cipher_number": 28,
+        "word": "among",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 181,
+        "cipher_number": 170,
+        "word": "form",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 182,
+        "cipher_number": 88,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 183,
+        "cipher_number": 4,
+        "word": "course",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 184,
+        "cipher_number": 30,
+        "word": "powers",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 185,
+        "cipher_number": 44,
+        "word": "nature",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 186,
+        "cipher_number": 112,
+        "word": "rights",
+        "initial": "r",
+        "resolved": true
+      },
+      {
+        "position": 187,
+        "cipher_number": 18,
+        "word": "bands",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 188,
+        "cipher_number": 147,
+        "word": "alter",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 189,
+        "cipher_number": 436,
+        "word": "bodies",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 190,
+        "cipher_number": 195,
+        "word": "changed",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 191,
+        "cipher_number": 320,
+        "word": "direct",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 192,
+        "cipher_number": 37,
+        "word": "equal",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 193,
+        "cipher_number": 122,
+        "word": "from",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 194,
+        "cipher_number": 113,
+        "word": "governments",
+        "initial": "g",
+        "resolved": true
+      },
+      {
+        "position": 195,
+        "cipher_number": 6,
+        "word": "human",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 196,
+        "cipher_number": 140,
+        "word": "is",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 197,
+        "cipher_number": 8,
+        "word": "it",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 198,
+        "cipher_number": 120,
+        "word": "just",
+        "initial": "j",
+        "resolved": true
+      },
+      {
+        "position": 199,
+        "cipher_number": 305,
+        "word": "King",
+        "initial": "k",
+        "resolved": true
+      },
+      {
+        "position": 200,
+        "cipher_number": 42,
+        "word": "laws",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 201,
+        "cipher_number": 58,
+        "word": "mankind",
+        "initial": "m",
+        "resolved": true
+      },
+      {
+        "position": 202,
+        "cipher_number": 461,
+        "word": "measures",
+        "initial": "m",
+        "resolved": true
+      },
+      {
+        "position": 203,
+        "cipher_number": 44,
+        "word": "nature",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 204,
+        "cipher_number": 106,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 205,
+        "cipher_number": 301,
+        "word": "history",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 206,
+        "cipher_number": 13,
+        "word": "people",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 207,
+        "cipher_number": 408,
+        "word": "people",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 208,
+        "cipher_number": 680,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 209,
+        "cipher_number": 93,
+        "word": "with",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 210,
+        "cipher_number": 86,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 211,
+        "cipher_number": 116,
+        "word": "among",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 212,
+        "cipher_number": 530,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 213,
+        "cipher_number": 82,
+        "word": "men",
+        "initial": "m",
+        "resolved": true
+      },
+      {
+        "position": 214,
+        "cipher_number": 568,
+        "word": "by",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 215,
+        "cipher_number": 9,
+        "word": "becomes",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 216,
+        "cipher_number": 102,
+        "word": "liberty",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 217,
+        "cipher_number": 38,
+        "word": "station",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 218,
+        "cipher_number": 416,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 219,
+        "cipher_number": 89,
+        "word": "endowed",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 220,
+        "cipher_number": 71,
+        "word": "separation",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 221,
+        "cipher_number": 216,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 222,
+        "cipher_number": 728,
+        "word": "on",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 223,
+        "cipher_number": 965,
+        "word": "our",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 224,
+        "cipher_number": 818,
+        "word": "suspending",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 225,
+        "cipher_number": 2,
+        "word": "in",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 226,
+        "cipher_number": 38,
+        "word": "station",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 227,
+        "cipher_number": 121,
+        "word": "powers",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 228,
+        "cipher_number": 195,
+        "word": "changed",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 229,
+        "cipher_number": 14,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 230,
+        "cipher_number": 326,
+        "word": "absolute",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 231,
+        "cipher_number": 148,
+        "word": "or",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 232,
+        "cipher_number": 234,
+        "word": "long",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 233,
+        "cipher_number": 18,
+        "word": "bands",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 234,
+        "cipher_number": 55,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 235,
+        "cipher_number": 131,
+        "word": "form",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 236,
+        "cipher_number": 234,
+        "word": "long",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 237,
+        "cipher_number": 361,
+        "word": "his",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 238,
+        "cipher_number": 824,
+        "word": "themselves",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 239,
+        "cipher_number": 5,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 240,
+        "cipher_number": 81,
+        "word": "all",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 241,
+        "cipher_number": 623,
+        "word": "substance",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 242,
+        "cipher_number": 48,
+        "word": "God",
+        "initial": "g",
+        "resolved": true
+      },
+      {
+        "position": 243,
+        "cipher_number": 961,
+        "word": "on",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 244,
+        "cipher_number": 19,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 245,
+        "cipher_number": 26,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 246,
+        "cipher_number": 33,
+        "word": "earth",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 247,
+        "cipher_number": 10,
+        "word": "necessary",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 248,
+        "cipher_number": 1101,
+        "word": "common",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 249,
+        "cipher_number": 365,
+        "word": "laws",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 250,
+        "cipher_number": 92,
+        "word": "Creator",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 251,
+        "cipher_number": 88,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 252,
+        "cipher_number": 181,
+        "word": "safety",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 253,
+        "cipher_number": 275,
+        "word": "Such",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 254,
+        "cipher_number": 346,
+        "word": "assent",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 255,
+        "cipher_number": 201,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 256,
+        "cipher_number": 206,
+        "word": "shown",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 257,
+        "cipher_number": 86,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 258,
+        "cipher_number": 36,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 259,
+        "cipher_number": 219,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 260,
+        "cipher_number": 324,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 261,
+        "cipher_number": 829,
+        "word": "legislate",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 262,
+        "cipher_number": 840,
+        "word": "here",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 263,
+        "cipher_number": 64,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 264,
+        "cipher_number": 326,
+        "word": "absolute",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 265,
+        "cipher_number": 19,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 266,
+        "cipher_number": 48,
+        "word": "God",
+        "initial": "g",
+        "resolved": true
+      },
+      {
+        "position": 267,
+        "cipher_number": 122,
+        "word": "from",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 268,
+        "cipher_number": 85,
+        "word": "equal",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 269,
+        "cipher_number": 216,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 270,
+        "cipher_number": 284,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 271,
+        "cipher_number": 919,
+        "word": "fellow",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 272,
+        "cipher_number": 861,
+        "word": "burnt",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 273,
+        "cipher_number": 326,
+        "word": "absolute",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 274,
+        "cipher_number": 985,
+        "word": "conditions",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 275,
+        "cipher_number": 233,
+        "word": "a",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 276,
+        "cipher_number": 64,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 277,
+        "cipher_number": 68,
+        "word": "them",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 278,
+        "cipher_number": 232,
+        "word": "when",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 279,
+        "cipher_number": 431,
+        "word": "He",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 280,
+        "cipher_number": 960,
+        "word": "bring",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 281,
+        "cipher_number": 50,
+        "word": "them",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 282,
+        "cipher_number": 29,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 283,
+        "cipher_number": 81,
+        "word": "all",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 284,
+        "cipher_number": 216,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 285,
+        "cipher_number": 321,
+        "word": "object",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 286,
+        "cipher_number": 603,
+        "word": "erected",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 287,
+        "cipher_number": 14,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 288,
+        "cipher_number": 612,
+        "word": "swarms",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 289,
+        "cipher_number": 81,
+        "word": "all",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 290,
+        "cipher_number": 360,
+        "word": "forbidden",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 291,
+        "cipher_number": 36,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 292,
+        "cipher_number": 51,
+        "word": "a",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 293,
+        "cipher_number": 62,
+        "word": "should",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 294,
+        "cipher_number": 194,
+        "word": "be",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 295,
+        "cipher_number": 78,
+        "word": "self",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 296,
+        "cipher_number": 60,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 297,
+        "cipher_number": 200,
+        "word": "causes",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 298,
+        "cipher_number": 314,
+        "word": "injuries",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 299,
+        "cipher_number": 676,
+        "word": "assent",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 300,
+        "cipher_number": 112,
+        "word": "rights",
+        "initial": "r",
+        "resolved": true
+      },
+      {
+        "position": 301,
+        "cipher_number": 4,
+        "word": "course",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 302,
+        "cipher_number": 28,
+        "word": "among",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 303,
+        "cipher_number": 18,
+        "word": "bands",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 304,
+        "cipher_number": 61,
+        "word": "they",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 305,
+        "cipher_number": 136,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 306,
+        "cipher_number": 247,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 307,
+        "cipher_number": 819,
+        "word": "our",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 308,
+        "cipher_number": 921,
+        "word": "taken",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 309,
+        "cipher_number": 1060,
+        "word": "their",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 310,
+        "cipher_number": 464,
+        "word": "dissolved",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 311,
+        "cipher_number": 895,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 312,
+        "cipher_number": 10,
+        "word": "necessary",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 313,
+        "cipher_number": 6,
+        "word": "human",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 314,
+        "cipher_number": 66,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 315,
+        "cipher_number": 119,
+        "word": "their",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 316,
+        "cipher_number": 38,
+        "word": "station",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 317,
+        "cipher_number": 41,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 318,
+        "cipher_number": 49,
+        "word": "entitle",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 319,
+        "cipher_number": 602,
+        "word": "has",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 320,
+        "cipher_number": 423,
+        "word": "inestimable",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 321,
+        "cipher_number": 962,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 322,
+        "cipher_number": 302,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 323,
+        "cipher_number": 294,
+        "word": "alter",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 324,
+        "cipher_number": 875,
+        "word": "time",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 325,
+        "cipher_number": 78,
+        "word": "self",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 326,
+        "cipher_number": 14,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 327,
+        "cipher_number": 23,
+        "word": "with",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 328,
+        "cipher_number": 111,
+        "word": "their",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 329,
+        "cipher_number": 109,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 330,
+        "cipher_number": 62,
+        "word": "should",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 331,
+        "cipher_number": 31,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 332,
+        "cipher_number": 501,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 333,
+        "cipher_number": 823,
+        "word": "declaring",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 334,
+        "cipher_number": 216,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 335,
+        "cipher_number": 280,
+        "word": "sufferance",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 336,
+        "cipher_number": 34,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 337,
+        "cipher_number": 24,
+        "word": "another",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 338,
+        "cipher_number": 150,
+        "word": "abolish",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 339,
+        "cipher_number": 1000,
+        "word": "humble",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 340,
+        "cipher_number": 162,
+        "word": "such",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 341,
+        "cipher_number": 286,
+        "word": "is",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 342,
+        "cipher_number": 19,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 343,
+        "cipher_number": 21,
+        "word": "connected",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 344,
+        "cipher_number": 17,
+        "word": "political",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 345,
+        "cipher_number": 340,
+        "word": "candid",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 346,
+        "cipher_number": 19,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 347,
+        "cipher_number": 242,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 348,
+        "cipher_number": 31,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 349,
+        "cipher_number": 86,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 350,
+        "cipher_number": 234,
+        "word": "long",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 351,
+        "cipher_number": 140,
+        "word": "is",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 352,
+        "cipher_number": 607,
+        "word": "new",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 353,
+        "cipher_number": 115,
+        "word": "instituted",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 354,
+        "cipher_number": 33,
+        "word": "earth",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 355,
+        "cipher_number": 191,
+        "word": "established",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 356,
+        "cipher_number": 67,
+        "word": "impel",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 357,
+        "cipher_number": 104,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 358,
+        "cipher_number": 86,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 359,
+        "cipher_number": 52,
+        "word": "decent",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 360,
+        "cipher_number": 88,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 361,
+        "cipher_number": 16,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 362,
+        "cipher_number": 80,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 363,
+        "cipher_number": 121,
+        "word": "powers",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 364,
+        "cipher_number": 67,
+        "word": "impel",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 365,
+        "cipher_number": 95,
+        "word": "inalienable",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 366,
+        "cipher_number": 122,
+        "word": "from",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 367,
+        "cipher_number": 216,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 368,
+        "cipher_number": 548,
+        "word": "encourage",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 369,
+        "cipher_number": 96,
+        "word": "rights",
+        "initial": "r",
+        "resolved": true
+      },
+      {
+        "position": 370,
+        "cipher_number": 11,
+        "word": "for",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 371,
+        "cipher_number": 201,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 372,
+        "cipher_number": 77,
+        "word": "be",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 373,
+        "cipher_number": 364,
+        "word": "pass",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 374,
+        "cipher_number": 218,
+        "word": "than",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 375,
+        "cipher_number": 65,
+        "word": "causes",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 376,
+        "cipher_number": 667,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 377,
+        "cipher_number": 890,
+        "word": "tyranny",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 378,
+        "cipher_number": 236,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 379,
+        "cipher_number": 154,
+        "word": "institute",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 380,
+        "cipher_number": 211,
+        "word": "disposed",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 381,
+        "cipher_number": 10,
+        "word": "necessary",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 382,
+        "cipher_number": 98,
+        "word": "among",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 383,
+        "cipher_number": 34,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 384,
+        "cipher_number": 119,
+        "word": "their",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 385,
+        "cipher_number": 56,
+        "word": "opinions",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 386,
+        "cipher_number": 216,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 387,
+        "cipher_number": 119,
+        "word": "their",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 388,
+        "cipher_number": 71,
+        "word": "separation",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 389,
+        "cipher_number": 218,
+        "word": "than",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 390,
+        "cipher_number": 1164,
+        "word": "in",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 391,
+        "cipher_number": 1496,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 392,
+        "cipher_number": 1817,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 393,
+        "cipher_number": 51,
+        "word": "a",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 394,
+        "cipher_number": 39,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 395,
+        "cipher_number": 210,
+        "word": "now",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 396,
+        "cipher_number": 36,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 397,
+        "cipher_number": 3,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 398,
+        "cipher_number": 19,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 399,
+        "cipher_number": 540,
+        "word": "naturalization",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 400,
+        "cipher_number": 232,
+        "word": "when",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 401,
+        "cipher_number": 22,
+        "word": "them",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 402,
+        "cipher_number": 141,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 403,
+        "cipher_number": 617,
+        "word": "our",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 404,
+        "cipher_number": 84,
+        "word": "created",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 405,
+        "cipher_number": 290,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 406,
+        "cipher_number": 80,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 407,
+        "cipher_number": 46,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 408,
+        "cipher_number": 207,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 409,
+        "cipher_number": 411,
+        "word": "people",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 410,
+        "cipher_number": 150,
+        "word": "abolish",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 411,
+        "cipher_number": 29,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 412,
+        "cipher_number": 38,
+        "word": "station",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 413,
+        "cipher_number": 46,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 414,
+        "cipher_number": 172,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 415,
+        "cipher_number": 85,
+        "word": "equal",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 416,
+        "cipher_number": 194,
+        "word": "be",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 417,
+        "cipher_number": 39,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 418,
+        "cipher_number": 261,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 419,
+        "cipher_number": 543,
+        "word": "refusing",
+        "initial": "r",
+        "resolved": true
+      },
+      {
+        "position": 420,
+        "cipher_number": 897,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 421,
+        "cipher_number": 624,
+        "word": "He",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 422,
+        "cipher_number": 18,
+        "word": "bands",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 423,
+        "cipher_number": 212,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 424,
+        "cipher_number": 416,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 425,
+        "cipher_number": 127,
+        "word": "governed",
+        "initial": "g",
+        "resolved": true
+      },
+      {
+        "position": 426,
+        "cipher_number": 931,
+        "word": "their",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 427,
+        "cipher_number": 19,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 428,
+        "cipher_number": 4,
+        "word": "course",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 429,
+        "cipher_number": 63,
+        "word": "declare",
+        "initial": "d",
+        "resolved": true
+      },
+      {
+        "position": 430,
+        "cipher_number": 96,
+        "word": "rights",
+        "initial": "r",
+        "resolved": true
+      },
+      {
+        "position": 431,
+        "cipher_number": 12,
+        "word": "one",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 432,
+        "cipher_number": 101,
+        "word": "life",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 433,
+        "cipher_number": 418,
+        "word": "in",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 434,
+        "cipher_number": 16,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 435,
+        "cipher_number": 140,
+        "word": "is",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 436,
+        "cipher_number": 230,
+        "word": "accustomed",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 437,
+        "cipher_number": 460,
+        "word": "his",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 438,
+        "cipher_number": 538,
+        "word": "laws",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 439,
+        "cipher_number": 19,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 440,
+        "cipher_number": 27,
+        "word": "assume",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 441,
+        "cipher_number": 88,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 442,
+        "cipher_number": 612,
+        "word": "swarms",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 443,
+        "cipher_number": 1431,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 444,
+        "cipher_number": 90,
+        "word": "by",
+        "initial": "b",
+        "resolved": true
+      },
+      {
+        "position": 445,
+        "cipher_number": 716,
+        "word": "off",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 446,
+        "cipher_number": 275,
+        "word": "Such",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 447,
+        "cipher_number": 74,
+        "word": "these",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 448,
+        "cipher_number": 83,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 449,
+        "cipher_number": 11,
+        "word": "for",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 450,
+        "cipher_number": 426,
+        "word": "and",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 451,
+        "cipher_number": 89,
+        "word": "endowed",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 452,
+        "cipher_number": 72,
+        "word": "We",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 453,
+        "cipher_number": 84,
+        "word": "created",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 454,
+        "cipher_number": 1300,
+        "word": "mutually",
+        "initial": "m",
+        "resolved": true
+      },
+      {
+        "position": 455,
+        "cipher_number": 1706,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 456,
+        "cipher_number": 814,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 457,
+        "cipher_number": 221,
+        "word": "themselves",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 458,
+        "cipher_number": 132,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 459,
+        "cipher_number": 40,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 460,
+        "cipher_number": 102,
+        "word": "liberty",
+        "initial": "l",
+        "resolved": true
+      },
+      {
+        "position": 461,
+        "cipher_number": 34,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 462,
+        "cipher_number": 868,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 463,
+        "cipher_number": 975,
+        "word": "warfare",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 464,
+        "cipher_number": 1101,
+        "word": "common",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 465,
+        "cipher_number": 84,
+        "word": "created",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 466,
+        "cipher_number": 16,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 467,
+        "cipher_number": 79,
+        "word": "evident",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 468,
+        "cipher_number": 23,
+        "word": "with",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 469,
+        "cipher_number": 16,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 470,
+        "cipher_number": 81,
+        "word": "all",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 471,
+        "cipher_number": 122,
+        "word": "from",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 472,
+        "cipher_number": 324,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 473,
+        "cipher_number": 403,
+        "word": "accommodation",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 474,
+        "cipher_number": 912,
+        "word": "a",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 475,
+        "cipher_number": 227,
+        "word": "which",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 476,
+        "cipher_number": 936,
+        "word": "executioners",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 477,
+        "cipher_number": 447,
+        "word": "their",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 478,
+        "cipher_number": 55,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 479,
+        "cipher_number": 86,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 480,
+        "cipher_number": 34,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 481,
+        "cipher_number": 43,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 482,
+        "cipher_number": 212,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 483,
+        "cipher_number": 107,
+        "word": "happiness",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 484,
+        "cipher_number": 96,
+        "word": "rights",
+        "initial": "r",
+        "resolved": true
+      },
+      {
+        "position": 485,
+        "cipher_number": 314,
+        "word": "injuries",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 486,
+        "cipher_number": 264,
+        "word": "such",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 487,
+        "cipher_number": 1065,
+        "word": "unwarrantable",
+        "initial": "u",
+        "resolved": true
+      },
+      {
+        "position": 488,
+        "cipher_number": 323,
+        "word": "establishment",
+        "initial": "e",
+        "resolved": true
+      },
+      {
+        "position": 489,
+        "cipher_number": 428,
+        "word": "to",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 490,
+        "cipher_number": 601,
+        "word": "He",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 491,
+        "cipher_number": 203,
+        "word": "all",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 492,
+        "cipher_number": 124,
+        "word": "consent",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 493,
+        "cipher_number": 95,
+        "word": "inalienable",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 494,
+        "cipher_number": 216,
+        "word": "are",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 495,
+        "cipher_number": 814,
+        "word": "of",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 496,
+        "cipher_number": 2906,
+        "word": null,
+        "initial": "?",
+        "resolved": false
+      },
+      {
+        "position": 497,
+        "cipher_number": 654,
+        "word": "power",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 498,
+        "cipher_number": 820,
+        "word": "own",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 499,
+        "cipher_number": 2,
+        "word": "in",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 500,
+        "cipher_number": 301,
+        "word": "history",
+        "initial": "h",
+        "resolved": true
+      },
+      {
+        "position": 501,
+        "cipher_number": 112,
+        "word": "rights",
+        "initial": "r",
+        "resolved": true
+      },
+      {
+        "position": 502,
+        "cipher_number": 176,
+        "word": "most",
+        "initial": "m",
+        "resolved": true
+      },
+      {
+        "position": 503,
+        "cipher_number": 213,
+        "word": "suffer",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 504,
+        "cipher_number": 71,
+        "word": "separation",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 505,
+        "cipher_number": 87,
+        "word": "they",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 506,
+        "cipher_number": 96,
+        "word": "rights",
+        "initial": "r",
+        "resolved": true
+      },
+      {
+        "position": 507,
+        "cipher_number": 202,
+        "word": "accordingly",
+        "initial": "a",
+        "resolved": true
+      },
+      {
+        "position": 508,
+        "cipher_number": 35,
+        "word": "separate",
+        "initial": "s",
+        "resolved": true
+      },
+      {
+        "position": 509,
+        "cipher_number": 10,
+        "word": "necessary",
+        "initial": "n",
+        "resolved": true
+      },
+      {
+        "position": 510,
+        "cipher_number": 2,
+        "word": "in",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 511,
+        "cipher_number": 41,
+        "word": "the",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 512,
+        "cipher_number": 17,
+        "word": "political",
+        "initial": "p",
+        "resolved": true
+      },
+      {
+        "position": 513,
+        "cipher_number": 84,
+        "word": "created",
+        "initial": "c",
+        "resolved": true
+      },
+      {
+        "position": 514,
+        "cipher_number": 221,
+        "word": "themselves",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 515,
+        "cipher_number": 736,
+        "word": "in",
+        "initial": "i",
+        "resolved": true
+      },
+      {
+        "position": 516,
+        "cipher_number": 820,
+        "word": "own",
+        "initial": "o",
+        "resolved": true
+      },
+      {
+        "position": 517,
+        "cipher_number": 214,
+        "word": "while",
+        "initial": "w",
+        "resolved": true
+      },
+      {
+        "position": 518,
+        "cipher_number": 11,
+        "word": "for",
+        "initial": "f",
+        "resolved": true
+      },
+      {
+        "position": 519,
+        "cipher_number": 60,
+        "word": "that",
+        "initial": "t",
+        "resolved": true
+      },
+      {
+        "position": 520,
+        "cipher_number": 760,
+        "word": "free",
+        "initial": "f",
+        "resolved": true
+      }
+    ],
+    "model_deltas_from_representative": {
+      "242": [
+        {
+          "position": 347,
+          "cipher_number": 242,
+          "word": "same",
+          "initial": "s"
+        }
+      ],
+      "243": [],
+      "244": [],
+      "245": [],
+      "246": []
+    }
+  },
+  "printed_anchor_collision_sensitivity": {
+    "primary_policy": "last_assignment_wins",
+    "alternative_policy": "first_assignment_wins",
+    "classification": "Frozen parser-policy sensitivity for overlapping printed-anchor intervals; the local 240..466 reconstruction is held fixed in both cases.",
+    "raw_labels_with_different_words": [
+      {
+        "label": 240,
+        "first_assignment_word": "pursuing",
+        "last_assignment_word": "invariably"
+      },
+      {
+        "label": 471,
+        "first_assignment_word": "manly",
+        "last_assignment_word": "He"
+      },
+      {
+        "label": 472,
+        "first_assignment_word": "firmness",
+        "last_assignment_word": "has"
+      },
+      {
+        "label": 473,
+        "first_assignment_word": "his",
+        "last_assignment_word": "refused"
+      },
+      {
+        "label": 474,
+        "first_assignment_word": "invasions",
+        "last_assignment_word": "for"
+      },
+      {
+        "label": 475,
+        "first_assignment_word": "on",
+        "last_assignment_word": "a"
+      },
+      {
+        "label": 476,
+        "first_assignment_word": "the",
+        "last_assignment_word": "long"
+      },
+      {
+        "label": 477,
+        "first_assignment_word": "rights",
+        "last_assignment_word": "time"
+      },
+      {
+        "label": 478,
+        "first_assignment_word": "of",
+        "last_assignment_word": "after"
+      },
+      {
+        "label": 479,
+        "first_assignment_word": "the",
+        "last_assignment_word": "such"
+      },
+      {
+        "label": 480,
+        "first_assignment_word": "people",
+        "last_assignment_word": "dissolutions"
+      },
+      {
+        "label": 630,
+        "first_assignment_word": "times",
+        "last_assignment_word": "of"
+      },
+      {
+        "label": 670,
+        "first_assignment_word": "and",
+        "last_assignment_word": "unacknowledged"
+      }
+    ],
+    "complete_b1_positions_that_differ": [
+      {
+        "position": 127,
+        "cipher_number": 474,
+        "first_assignment_initial": "i",
+        "last_assignment_initial": "f"
+      },
+      {
+        "position": 155,
+        "cipher_number": 471,
+        "first_assignment_initial": "m",
+        "last_assignment_initial": "h"
+      }
+    ],
+    "first_assignment_longest_walk": {
+      "length": 17,
+      "start": 188,
+      "end": 204,
+      "text": "abcdefghiijklmmno",
+      "direction": "forward"
+    },
+    "last_assignment_longest_walk": {
+      "length": 17,
+      "start": 188,
+      "end": 204,
+      "text": "abcdefghiijklmmno",
+      "direction": "forward"
+    }
+  },
+  "statistic": {
+    "definition": "Maximum contiguous run over the complete decoded B1 stream and both directions, where each adjacent alphabet-rank difference is zero or the chosen direction; unresolved symbols break runs.",
+    "status": "post_hoc_descriptive_calibration",
+    "observed": 17
+  },
+  "equality_pattern_null": {
+    "method": "Permute decoded initials, including unresolved barriers, across B1's distinct number types; reconstruct the stream from the unchanged equality pattern.",
+    "distinct_number_types": 298,
+    "trials": 199999,
+    "seed": 20260801,
+    "exceedances": 0,
+    "p_add_one": 5e-06,
+    "histogram": {
+      "2": 26,
+      "3": 55871,
+      "4": 109304,
+      "5": 28938,
+      "6": 4867,
+      "7": 828,
+      "8": 136,
+      "9": 25,
+      "10": 4
+    }
+  },
+  "edition_sensitivity": {
+    "pamphlet_ordinary_sequential": {
+      "word_or_label_count": 1324,
+      "decoded": 510,
+      "unresolved": 10,
+      "longest_walk": {
+        "length": 7,
+        "start": 192,
+        "end": 198,
+        "text": "efghiij",
+        "direction": "forward"
+      }
+    },
+    "pamphlet_printed_anchor_expansion": {
+      "word_or_label_count": 1311,
+      "decoded": 508,
+      "unresolved": 12,
+      "longest_walk": {
+        "length": 17,
+        "start": 188,
+        "end": 204,
+        "text": "abcdefghiijklmmno",
+        "direction": "forward"
+      }
+    },
+    "independent_modern_transcription_sequential": {
+      "word_or_label_count": 1459,
+      "decoded": 511,
+      "unresolved": 9,
+      "longest_walk": {
+        "length": 14,
+        "start": 191,
+        "end": 204,
+        "text": "defghiijklmmno",
+        "direction": "forward"
+      }
+    }
+  },
+  "neighbor_number_error_sensitivity": {
+    "classification": "Optimization after observing B1; demonstrates researcher freedom and must not be presented as a corrected ciphertext or confirmatory test.",
+    "allowed_operation": "At no more than k positions in one contiguous candidate run, replace the printed number n by n-1 or n+1; scan all starts and both directions.",
+    "ordinary_sequential_table": [
+      {
+        "budget": 0,
+        "length": 7,
+        "positions_1_based": [
+          192,
+          198
+        ],
+        "text": "efghiij",
+        "edits": []
+      },
+      {
+        "budget": 1,
+        "length": 10,
+        "positions_1_based": [
+          192,
+          201
+        ],
+        "text": "efghiijklm",
+        "edits": [
+          {
+            "b1_position": 199,
+            "printed_number": 305,
+            "delta": 1,
+            "replacement_number": 306
+          }
+        ]
+      },
+      {
+        "budget": 2,
+        "length": 13,
+        "positions_1_based": [
+          192,
+          204
+        ],
+        "text": "efghiijklmmno",
+        "edits": [
+          {
+            "b1_position": 199,
+            "printed_number": 305,
+            "delta": 1,
+            "replacement_number": 306
+          },
+          {
+            "b1_position": 202,
+            "printed_number": 461,
+            "delta": 1,
+            "replacement_number": 462
+          }
+        ]
+      },
+      {
+        "budget": 3,
+        "length": 15,
+        "positions_1_based": [
+          190,
+          204
+        ],
+        "text": "cdefghiijklmmno",
+        "edits": [
+          {
+            "b1_position": 191,
+            "printed_number": 320,
+            "delta": 1,
+            "replacement_number": 321
+          },
+          {
+            "b1_position": 199,
+            "printed_number": 305,
+            "delta": 1,
+            "replacement_number": 306
+          },
+          {
+            "b1_position": 202,
+            "printed_number": 461,
+            "delta": 1,
+            "replacement_number": 462
+          }
+        ]
+      }
+    ],
+    "piecewise_reconstructed_table": [
+      {
+        "budget": 0,
+        "length": 17,
+        "positions_1_based": [
+          188,
+          204
+        ],
+        "text": "abcdefghiijklmmno",
+        "edits": []
+      },
+      {
+        "budget": 1,
+        "length": 20,
+        "positions_1_based": [
+          188,
+          207
+        ],
+        "text": "abcdefghiijklmmnoopp",
+        "edits": [
+          {
+            "b1_position": 205,
+            "printed_number": 301,
+            "delta": 1,
+            "replacement_number": 302
+          }
+        ]
+      },
+      {
+        "budget": 2,
+        "length": 21,
+        "positions_1_based": [
+          188,
+          208
+        ],
+        "text": "abcdefghiijklmmnooppp",
+        "edits": [
+          {
+            "b1_position": 205,
+            "printed_number": 301,
+            "delta": 1,
+            "replacement_number": 302
+          },
+          {
+            "b1_position": 208,
+            "printed_number": 680,
+            "delta": 1,
+            "replacement_number": 681
+          }
+        ]
+      },
+      {
+        "budget": 3,
+        "length": 21,
+        "positions_1_based": [
+          188,
+          208
+        ],
+        "text": "abcdefghiijklmmnooooo",
+        "edits": [
+          {
+            "b1_position": 205,
+            "printed_number": 301,
+            "delta": 1,
+            "replacement_number": 302
+          },
+          {
+            "b1_position": 206,
+            "printed_number": 13,
+            "delta": -1,
+            "replacement_number": 12
+          },
+          {
+            "b1_position": 207,
+            "printed_number": 408,
+            "delta": -1,
+            "replacement_number": 407
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "The known B2 plaintext is used to infer constraints; this is not an independent decryption.",
+    "The global alignment is deterministic but four observed number types remain internally conflicted.",
+    "The deletion interval is identifiable, but the deleted word is not.",
+    "The alphabet statistic was formulated after the anomaly was known.",
+    "The equality-pattern null is one explicit chance model, not a probability that the hoax hypothesis is true.",
+    "Overlapping printed anchors require a parser collision policy; both frozen policies are reported."
+  ]
+}

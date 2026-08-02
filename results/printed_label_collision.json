@@ -1,0 +1,470 @@
+{
+  "schema": "beale-printed-label-collision-v1",
+  "input_sha256": {
+    "data/beale1_1885.csv": "0e63242041b03717a96340fde86af10f895355b936b4120da1769e9f2f7e3d27",
+    "sources/wikisource/page_17.wikitext": "b3b41de785cae4fb1f25f849c6a61f2fb17da0cb8cec7784a094ac150a23588f",
+    "sources/wikisource/page_18.wikitext": "439683edf0a52ce398eaca05e15f3cbac3e03f6dfb3ec291ba72746a33372cf0",
+    "sources/wikisource/page_19.wikitext": "1f88c40b384200ed63714171216fe681da7bc570f7e5bf5a936bb6078d3c5004",
+    "sources/wikisource/page_20.wikitext": "50133deddbf80fd81a9664742c8526f5381f803416db80e207719434d4c2bee8"
+  },
+  "cipher_count": 520,
+  "declaration_word_count": 1324,
+  "enumeration_policy": "For each printed anchor n, assign the words since the prior anchor backward so the last word receives n; retain the later assignment when ranges overlap, while reporting every overlap.",
+  "pursuing_interval": [
+    {
+      "anchor": 240,
+      "word_count": 10,
+      "first_assigned": 231,
+      "words": [
+        "But",
+        "when",
+        "a",
+        "long",
+        "train",
+        "of",
+        "abuses",
+        "and",
+        "usurpations",
+        "pursuing"
+      ]
+    },
+    {
+      "anchor": 250,
+      "word_count": 11,
+      "first_assigned": 240,
+      "words": [
+        "invariably",
+        "the",
+        "same",
+        "object",
+        "evinces",
+        "a",
+        "design",
+        "to",
+        "reduce",
+        "them",
+        "under"
+      ]
+    }
+  ],
+  "label_240_assignments": [
+    {
+      "word": "pursuing",
+      "anchor": 240,
+      "first_assigned": 231
+    },
+    {
+      "word": "invariably",
+      "anchor": 250,
+      "first_assigned": 240
+    }
+  ],
+  "all_assignment_collisions": {
+    "240": [
+      {
+        "word": "pursuing",
+        "anchor": 240,
+        "first_assigned": 231
+      },
+      {
+        "word": "invariably",
+        "anchor": 250,
+        "first_assigned": 240
+      }
+    ],
+    "471": [
+      {
+        "word": "manly",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "He",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "472": [
+      {
+        "word": "firmness",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "has",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "473": [
+      {
+        "word": "his",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "refused",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "474": [
+      {
+        "word": "invasions",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "for",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "475": [
+      {
+        "word": "on",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "a",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "476": [
+      {
+        "word": "the",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "long",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "477": [
+      {
+        "word": "rights",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "time",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "478": [
+      {
+        "word": "of",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "after",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "479": [
+      {
+        "word": "the",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "such",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "480": [
+      {
+        "word": "people",
+        "anchor": 480,
+        "first_assigned": 471
+      },
+      {
+        "word": "dissolutions",
+        "anchor": 480,
+        "first_assigned": 471
+      }
+    ],
+    "630": [
+      {
+        "word": "times",
+        "anchor": 630,
+        "first_assigned": 621
+      },
+      {
+        "word": "of",
+        "anchor": 640,
+        "first_assigned": 630
+      }
+    ],
+    "670": [
+      {
+        "word": "and",
+        "anchor": 670,
+        "first_assigned": 661
+      },
+      {
+        "word": "unacknowledged",
+        "anchor": 680,
+        "first_assigned": 670
+      }
+    ]
+  },
+  "b1_positions_188_207": [
+    {
+      "b1_position": 188,
+      "number": 147,
+      "ordinary_word": "alter",
+      "ordinary_letter": "a",
+      "working_word": "alter",
+      "working_letter": "a",
+      "changed": false
+    },
+    {
+      "b1_position": 189,
+      "number": 436,
+      "ordinary_word": "legislative",
+      "ordinary_letter": "l",
+      "working_word": "bodies",
+      "working_letter": "b",
+      "changed": true
+    },
+    {
+      "b1_position": 190,
+      "number": 195,
+      "ordinary_word": "changed",
+      "ordinary_letter": "c",
+      "working_word": "changed",
+      "working_letter": "c",
+      "changed": false
+    },
+    {
+      "b1_position": 191,
+      "number": 320,
+      "ordinary_word": "in",
+      "ordinary_letter": "i",
+      "working_word": "direct",
+      "working_letter": "d",
+      "changed": true
+    },
+    {
+      "b1_position": 192,
+      "number": 37,
+      "ordinary_word": "equal",
+      "ordinary_letter": "e",
+      "working_word": "equal",
+      "working_letter": "e",
+      "changed": false
+    },
+    {
+      "b1_position": 193,
+      "number": 122,
+      "ordinary_word": "from",
+      "ordinary_letter": "f",
+      "working_word": "from",
+      "working_letter": "f",
+      "changed": false
+    },
+    {
+      "b1_position": 194,
+      "number": 113,
+      "ordinary_word": "governments",
+      "ordinary_letter": "g",
+      "working_word": "governments",
+      "working_letter": "g",
+      "changed": false
+    },
+    {
+      "b1_position": 195,
+      "number": 6,
+      "ordinary_word": "human",
+      "ordinary_letter": "h",
+      "working_word": "human",
+      "working_letter": "h",
+      "changed": false
+    },
+    {
+      "b1_position": 196,
+      "number": 140,
+      "ordinary_word": "is",
+      "ordinary_letter": "i",
+      "working_word": "is",
+      "working_letter": "i",
+      "changed": false
+    },
+    {
+      "b1_position": 197,
+      "number": 8,
+      "ordinary_word": "it",
+      "ordinary_letter": "i",
+      "working_word": "it",
+      "working_letter": "i",
+      "changed": false
+    },
+    {
+      "b1_position": 198,
+      "number": 120,
+      "ordinary_word": "just",
+      "ordinary_letter": "j",
+      "working_word": "just",
+      "working_letter": "j",
+      "changed": false
+    },
+    {
+      "b1_position": 199,
+      "number": 305,
+      "ordinary_word": "present",
+      "ordinary_letter": "p",
+      "working_word": "King",
+      "working_letter": "k",
+      "changed": true
+    },
+    {
+      "b1_position": 200,
+      "number": 42,
+      "ordinary_word": "laws",
+      "ordinary_letter": "l",
+      "working_word": "laws",
+      "working_letter": "l",
+      "changed": false
+    },
+    {
+      "b1_position": 201,
+      "number": 58,
+      "ordinary_word": "mankind",
+      "ordinary_letter": "m",
+      "working_word": "mankind",
+      "working_letter": "m",
+      "changed": false
+    },
+    {
+      "b1_position": 202,
+      "number": 461,
+      "ordinary_word": "his",
+      "ordinary_letter": "h",
+      "working_word": "measures",
+      "working_letter": "m",
+      "changed": true
+    },
+    {
+      "b1_position": 203,
+      "number": 44,
+      "ordinary_word": "nature",
+      "ordinary_letter": "n",
+      "working_word": "nature",
+      "working_letter": "n",
+      "changed": false
+    },
+    {
+      "b1_position": 204,
+      "number": 106,
+      "ordinary_word": "of",
+      "ordinary_letter": "o",
+      "working_word": "of",
+      "working_letter": "o",
+      "changed": false
+    },
+    {
+      "b1_position": 205,
+      "number": 301,
+      "ordinary_word": "The",
+      "ordinary_letter": "t",
+      "working_word": "history",
+      "working_letter": "h",
+      "changed": true
+    },
+    {
+      "b1_position": 206,
+      "number": 13,
+      "ordinary_word": "people",
+      "ordinary_letter": "p",
+      "working_word": "people",
+      "working_letter": "p",
+      "changed": false
+    },
+    {
+      "b1_position": 207,
+      "number": 408,
+      "ordinary_word": "of",
+      "ordinary_letter": "o",
+      "working_word": "people",
+      "working_letter": "p",
+      "changed": true
+    }
+  ],
+  "ordinary_letters_188_207": "alciefghiijplmhnotpo",
+  "working_letters_188_207": "abcdefghiijklmmnohpp",
+  "changed_positions": [
+    {
+      "b1_position": 189,
+      "number": 436,
+      "ordinary_word": "legislative",
+      "ordinary_letter": "l",
+      "working_word": "bodies",
+      "working_letter": "b",
+      "changed": true
+    },
+    {
+      "b1_position": 191,
+      "number": 320,
+      "ordinary_word": "in",
+      "ordinary_letter": "i",
+      "working_word": "direct",
+      "working_letter": "d",
+      "changed": true
+    },
+    {
+      "b1_position": 199,
+      "number": 305,
+      "ordinary_word": "present",
+      "ordinary_letter": "p",
+      "working_word": "King",
+      "working_letter": "k",
+      "changed": true
+    },
+    {
+      "b1_position": 202,
+      "number": 461,
+      "ordinary_word": "his",
+      "ordinary_letter": "h",
+      "working_word": "measures",
+      "working_letter": "m",
+      "changed": true
+    },
+    {
+      "b1_position": 205,
+      "number": 301,
+      "ordinary_word": "The",
+      "ordinary_letter": "t",
+      "working_word": "history",
+      "working_letter": "h",
+      "changed": true
+    },
+    {
+      "b1_position": 207,
+      "number": 408,
+      "ordinary_word": "of",
+      "ordinary_letter": "o",
+      "working_word": "people",
+      "working_letter": "p",
+      "changed": true
+    }
+  ],
+  "working_forward_walk": {
+    "length": 17,
+    "positions_1_based": [
+      188,
+      204
+    ],
+    "text": "abcdefghiijklmmno"
+  },
+  "hypothesis_status": "refuted as a historical omission model",
+  "interpretation_limit": "This reconstructs a collision created by one deterministic expansion of sparse printed labels. It does not show that a historical working table omitted pursuing. B2 number 241 requires invariably -> i twice, which contradicts deleting pursuing."
+}

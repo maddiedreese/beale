@@ -1,0 +1,11 @@
+[project]
+name = "beale-investigation"
+version = "1.0.0"
+description = "Reproducible investigation of the Beale B1 alphabet anomaly"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Maddie D. Reese"}]
+
+[tool.setuptools]
+packages = []
+

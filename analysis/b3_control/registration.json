@@ -1,0 +1,37 @@
+{
+  "schema": "beale-b3-declaration-episode-replication-v1",
+  "status": "frozen",
+  "exposure_authorized": true,
+  "frozen_at": "2026-08-01",
+  "hypothesis": "If B1 and B3 share a piecewise Declaration-conditioned generator, B3 should contain a localized 17-symbol episode enriched for same-or-successor Declaration initials",
+  "cipher": {
+    "file": "../data/beale3_1885.csv",
+    "sha256": "4cfc1bc51ba326de3c917762e857a35b7e7f2a3debc3daa70e67ba6b6128da46",
+    "count": 618,
+    "distinct": 263,
+    "maximum": 975,
+    "missing_printed_label_501_occurrences": 0
+  },
+  "declaration_mapping": {
+    "implementation": "../cipher_diagnostics/gillogly_analysis.py",
+    "implementation_sha256": "c1bc782165e91df909bb7f79b99b37b23fe1e6202a8eda41ba9f649337e30b0a",
+    "eligible_indices": "printed pamphlet Declaration indices 1..975 excluding undefined label 501",
+    "letter": "lowercase initial of indexed word"
+  },
+  "primary_statistic": {
+    "window_symbols": 17,
+    "window_transitions": 16,
+    "positive_transition": "right alphabet rank minus left alphabet rank is 0 or 1",
+    "statistic": "maximum positive-transition count over every contiguous 17-symbol B3 window",
+    "location_selection": "all windows included; no selected location"
+  },
+  "null": {
+    "rule": "uniformly inject B3's 263 distinct numeric labels without replacement into the eligible printed Declaration indices; preserve B3 equality pattern; recompute scan maximum",
+    "trials": 99999,
+    "seed": 20260801,
+    "p_value": "(1 + null maxima >= observed maximum)/(trials + 1)",
+    "decision_alpha": 0.01
+  },
+  "secondary_descriptive": "full-stream positive-transition count, calibrated under the identical null but not used for the primary decision",
+  "excluded": "no alternative window lengths, reverse alphabet walks, shifts, subsequence deletion, or post-exposure statistic selection"
+}

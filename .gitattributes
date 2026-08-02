@@ -1,0 +1,8 @@
+# A final empty line is harmless and retained in a few generated/metadata files.
+* whitespace=-blank-at-eof
+
+# Frozen third-party transcriptions preserve source bytes, including line-end spaces.
+cipher_diagnostics/*.txt whitespace=-trailing-space,-blank-at-eof
+data/*.txt whitespace=-trailing-space,-blank-at-eof
+sources/*.wikitext whitespace=-trailing-space,-blank-at-eof
+sources/wikisource/*.wikitext whitespace=-trailing-space,-blank-at-eof

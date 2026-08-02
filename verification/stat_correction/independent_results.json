@@ -1,0 +1,99 @@
+{
+  "schema": "beale-stat-correction-independent-audit-v1",
+  "implementation": "standalone; imports no project analysis module",
+  "input_sha256": {
+    "data/beale1_1885.csv": "0e63242041b03717a96340fde86af10f895355b936b4120da1769e9f2f7e3d27",
+    "sources/page_17.wikitext": "b3b41de785cae4fb1f25f849c6a61f2fb17da0cb8cec7784a094ac150a23588f",
+    "sources/page_18.wikitext": "439683edf0a52ce398eaca05e15f3cbac3e03f6dfb3ec291ba72746a33372cf0",
+    "sources/page_19.wikitext": "1f88c40b384200ed63714171216fe681da7bc570f7e5bf5a936bb6078d3c5004",
+    "sources/page_20.wikitext": "50133deddbf80fd81a9664742c8526f5381f803416db80e207719434d4c2bee8"
+  },
+  "decoded_sha256": "68c570b80007149c241af2f9a149fe15bf9f4b5c28dcf220aa4bd52b35547dd0",
+  "observed": {
+    "length": 17,
+    "start": 188,
+    "end": 204,
+    "text": "abcdefghiijklmmno",
+    "direction": "forward"
+  },
+  "positions_188_204": "abcdefghiijklmmno",
+  "monte_carlo": {
+    "trials": 199999,
+    "seed": 20260801,
+    "distinct_number_types": 298,
+    "exceedances": 0,
+    "p_add_one": 5e-06,
+    "maximum_simulated_run": 10,
+    "histogram": {
+      "2": 26,
+      "3": 55871,
+      "4": 109304,
+      "5": 28938,
+      "6": 4867,
+      "7": 828,
+      "8": 136,
+      "9": 25,
+      "10": 4
+    }
+  },
+  "correction_sensitivity": [
+    {
+      "budget": 0,
+      "length": 17,
+      "start": 188,
+      "end": 204,
+      "text": "abcdefghiijklmmno",
+      "edits": []
+    },
+    {
+      "budget": 1,
+      "length": 20,
+      "start": 188,
+      "end": 207,
+      "text": "abcdefghiijklmmnoopp",
+      "edits": [
+        {
+          "b1_position": 205,
+          "printed_number": 301,
+          "delta": 1,
+          "replacement_number": 302
+        }
+      ]
+    },
+    {
+      "budget": 2,
+      "length": 21,
+      "start": 188,
+      "end": 208,
+      "text": "abcdefghiijklmmnooppp",
+      "edits": [
+        {
+          "b1_position": 205,
+          "printed_number": 301,
+          "delta": 1,
+          "replacement_number": 302
+        },
+        {
+          "b1_position": 208,
+          "printed_number": 680,
+          "delta": 1,
+          "replacement_number": 681
+        }
+      ]
+    }
+  ],
+  "claims_verified": {
+    "observed_length_17_at_188_204": true,
+    "observed_text": true,
+    "zero_of_199999": true,
+    "add_one_p_000005": true,
+    "maximum_simulated_10": true,
+    "edit_lengths_17_20_21": true
+  },
+  "exact_comparison_to_primary": {
+    "histogram": true,
+    "exceedances": true,
+    "p_add_one": true,
+    "correction_rows": true
+  }
+}

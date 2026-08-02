@@ -1,0 +1,39 @@
+sources:
+  - id: ward_1885_scan
+    title: The Beale Papers
+    date: 1885
+    publisher: Virginia Book and Job Print
+    local_file: sources/beale_papers_1885.djvu
+    sha256: 2b8bdffb8cafd9ffed1032bb2f99dd79fd5b5efd0474f4aaee4cab574c68e870
+    public_domain: true
+    role: primary visual witness
+    url: https://commons.wikimedia.org/wiki/File:The_Beale_Papers.djvu
+  - id: ward_1885_wikisource
+    title: The Beale Papers page transcriptions
+    local_files: sources/wikisource/page_14.wikitext through page_22.wikitext
+    license: CC BY-SA 4.0
+    role: machine-readable transcription checked against the primary witness
+    url: https://en.wikisource.org/wiki/Index:The_Beale_Papers.djvu
+    critical_page_sha256:
+      page_17: b3b41de785cae4fb1f25f849c6a61f2fb17da0cb8cec7784a094ac150a23588f
+      page_18: 439683edf0a52ce398eaca05e15f3cbac3e03f6dfb3ec291ba72746a33372cf0
+      page_19: 1f88c40b384200ed63714171216fe681da7bc570f7e5bf5a936bb6078d3c5004
+      page_20: 50133deddbf80fd81a9664742c8526f5381f803416db80e207719434d4c2bee8
+      page_21: 3bb79b538019a61e15987c0969101e3db37b75634e323fbd2b89186b78a31381
+  - id: fsu_b2_plaintext
+    title: Beale Cipher No. 2 deciphered transcription
+    local_file: cipher_diagnostics/beale_cipher2_deciphered_fsu.txt
+    sha256: a3e2c102e54245187b6fdf7bcfa56fa7e4b459306d731e4b15a1d0d235ce5284
+    role: normalized known plaintext used for deterministic alignment
+    url: https://people.sc.fsu.edu/~jburkardt/datasets/ciphers/ciphers.html
+  - id: fsu_declaration
+    title: Declaration of Independence transcription
+    local_file: cipher_diagnostics/declaration_fsu.txt
+    sha256: e39a5eed8c54cab6f17e96fda9be47f050dc42191533675d42656a2cf610d044
+    role: independent modern-edition sensitivity control
+    url: https://people.sc.fsu.edu/~jburkardt/datasets/ciphers/ciphers.html
+
+notes:
+  - Frozen B1 and B2 numeric inputs are deterministically checked against the scan-derived Wikisource blocks by provenance/verify_sources.py.
+  - The B2 plaintext is advertised by the pamphlet and normalized by the FSU transcription; using it is known-plaintext reconstruction, not independent decryption.
+  - Frozen B1 SHA-256 is 0e63242041b03717a96340fde86af10f895355b936b4120da1769e9f2f7e3d27; frozen B2 SHA-256 is 038ba2aeae36a504383bafa00583be29cfc8267045c7f44099afbf237a9fd4ba.

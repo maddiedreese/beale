@@ -1,0 +1,70 @@
+{
+  "cipher_sha256": "4cfc1bc51ba326de3c917762e857a35b7e7f2a3debc3daa70e67ba6b6128da46",
+  "mapping_metadata": {
+    "distinct_printed_numbers": 1311,
+    "non_increasing_anchors": [
+      {
+        "anchor": 480,
+        "previous_anchor": 480
+      }
+    ],
+    "non_ten_word_anchor_groups": [
+      {
+        "anchor": 250,
+        "first_assigned": 240,
+        "words_since_prior_anchor": 11
+      },
+      {
+        "anchor": 510,
+        "first_assigned": 502,
+        "words_since_prior_anchor": 9
+      },
+      {
+        "anchor": 640,
+        "first_assigned": 630,
+        "words_since_prior_anchor": 11
+      },
+      {
+        "anchor": 680,
+        "first_assigned": 670,
+        "words_since_prior_anchor": 11
+      }
+    ],
+    "printed_numbering_max": 1312,
+    "source_paths": [
+      "sources/page_17.wikitext",
+      "sources/page_18.wikitext",
+      "sources/page_19.wikitext",
+      "sources/page_20.wikitext"
+    ],
+    "source_sha256": {
+      "sources/page_17.wikitext": "b3b41de785cae4fb1f25f849c6a61f2fb17da0cb8cec7784a094ac150a23588f",
+      "sources/page_18.wikitext": "439683edf0a52ce398eaca05e15f3cbac3e03f6dfb3ec291ba72746a33372cf0",
+      "sources/page_19.wikitext": "1f88c40b384200ed63714171216fe681da7bc570f7e5bf5a936bb6078d3c5004",
+      "sources/page_20.wikitext": "50133deddbf80fd81a9664742c8526f5381f803416db80e207719434d4c2bee8"
+    },
+    "true_word_count": 1324
+  },
+  "null_maxima_sha256": "e9ca7dad560b35f334440e49eadcc2d1449c1999eef2d9eb2427d067a711a528",
+  "null_totals_sha256": "b46b538e34f248d0f86f1fec06a7d6dc8e8e17ccf0256912e04a272c14562ce5",
+  "observed": {
+    "best_window_end_1_based": 167,
+    "best_window_initials": "ccstttebawasttaaa",
+    "best_window_start_1_based": 151,
+    "full_stream_positive_transitions": 76,
+    "maximum_positive_transitions_in_17_symbols": 8
+  },
+  "primary": {
+    "exceedances": 8727,
+    "monte_carlo_p": 0.08728,
+    "statistical_hit": false,
+    "trials": 99999
+  },
+  "registration_sha256": "d9ed691bdb8bd0bdd56679b0159ece0943c1f51857c58592dcc48f6c46c67189",
+  "schema": "beale-b3-declaration-episode-replication-result-v1",
+  "secondary_descriptive": {
+    "exceedances": 53405,
+    "monte_carlo_p": 0.53406,
+    "trials": 99999
+  }
+}

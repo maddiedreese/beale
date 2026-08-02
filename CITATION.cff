@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it using the metadata below."
+title: "Beale Cipher No. 1: reproducible analysis of the Declaration-table anomaly"
+type: software
+authors:
+  - family-names: Reese
+    given-names: "Maddie D."
+repository-code: "https://github.com/maddiedreese/beale"
+license: MIT
+abstract: >-
+  A reproducible audit of the alphabetic anomaly in Beale Cipher No. 1,
+  its relationship to the working enumeration behind Cipher No. 2, and
+  statistical and historical limits on the resulting hoax inference.
+

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.venv/
+build/
+dist/
+tmp/
+*.sqlite
+x_article*
+twitter_article*
+tweet_thread*
+social_draft*

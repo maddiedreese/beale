@@ -1,0 +1,11 @@
+{
+  "schema": "beale-b3-extraction-v1",
+  "source": "sources/page_22.wikitext",
+  "source_sha256": "35498941ad7efe25db7092c1e2cf1664f76cdc21b510df3d6bb340e2d960c9f9",
+  "rule": "all decimal integers in the sole smaller-block on physical pamphlet page 22",
+  "count": 618,
+  "minimum": 1,
+  "maximum": 975,
+  "output": "data/beale3_1885.csv",
+  "output_sha256": "4cfc1bc51ba326de3c917762e857a35b7e7f2a3debc3daa70e67ba6b6128da46"
+}
